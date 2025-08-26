@@ -1,0 +1,28 @@
+body { min-height: 100vh; }
+.sidebar {
+  width: 240px;
+  min-height: 100vh;
+  background: #212529;
+  color: #fff;
+  position: fixed;
+  left: 0; top: 0; bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 1030;
+}
+.sidebar .nav-link {
+  color: #adb5bd;
+}
+.sidebar .nav-link.active, .sidebar .nav-link:focus {
+  color: #fff;
+  background: #0d6efd;
+}
+.main-content {
+  margin-left: 240px;
+  padding: 32px 32px 0 32px;
+}
+.sidebar .user-menu {
+  margin-bottom: 1rem;
+  padding: 0 1rem;
+}
